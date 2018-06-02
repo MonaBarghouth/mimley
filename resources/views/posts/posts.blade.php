@@ -40,7 +40,7 @@
                                     {{ csrf_field() }}
 
                                     <div class="author-thumb">
-                                        <img src="img/author-page.jpg" alt="author">
+                                        <img src="{{asset('img/author-page.jpg')}}" alt="author">
                                     </div>
                                     <div class="form-group with-icon label-floating is-empty">
                                         <label class="control-label"></label>
@@ -100,7 +100,7 @@
                         <article class="hentry post has-post-thumbnail">
 
                             <div class="post__author author vcard inline-items">
-                                <img src="img/avatar5-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar5-sm.jpg')}}" alt="author">
 
                                 <div class="author-date">
                                     <a class="h6 post__author-name fn" href="#">Green Goo Rock</a>
@@ -158,27 +158,27 @@
                                 <ul class="friends-harmonic">
                                     <li>
                                         <a href="#">
-                                            <img src="img/friend-harmonic9.jpg" alt="friend">
+                                            <img src="{{asset('img/friend-harmonic9.jpg')}}" alt="friend">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="img/friend-harmonic10.jpg" alt="friend">
+                                            <img src="{{asset('img/friend-harmonic10.jpg')}}" alt="friend">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="img/friend-harmonic7.jpg" alt="friend">
+                                            <img src="{{asset('img/friend-harmonic7.jpg')}}" alt="friend">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="img/friend-harmonic8.jpg" alt="friend">
+                                            <img src="{{asset('img/friend-harmonic8.jpg')}}" alt="friend">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="img/friend-harmonic11.jpg" alt="friend">
+                                            <img src="{{asset('img/friend-harmonic11.jpg')}}" alt="friend">
                                         </a>
                                     </li>
                                 </ul>
@@ -339,27 +339,27 @@
                                             <ul class="friends-harmonic inline-items">
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic5.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic5.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic10.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic10.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic7.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic7.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic8.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic8.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic2.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic2.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li class="with-text">
@@ -443,27 +443,27 @@
                                             <ul class="friends-harmonic inline-items">
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic5.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic5.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic10.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic10.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic7.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic7.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic8.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic8.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic2.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic2.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li class="with-text">
@@ -508,27 +508,27 @@
                                             <ul class="friends-harmonic inline-items">
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic5.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic5.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic10.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic10.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic7.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic7.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic8.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic8.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic2.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic2.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li class="with-text">
@@ -613,27 +613,27 @@
                                             <ul class="friends-harmonic inline-items">
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic5.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic5.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic10.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic10.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic7.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic7.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic8.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic8.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <img src="img/friend-harmonic2.jpg" alt="friend">
+                                                        <img src="{{asset('img/friend-harmonic2.jpg')}}" alt="friend">
                                                     </a>
                                                 </li>
                                                 <li class="with-text">
@@ -664,7 +664,7 @@
                     <ul class="widget w-friend-pages-added notification-list friend-requests">
                         <li class="inline-items">
                             <div class="author-thumb">
-                                <img src="img/avatar41-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar41-sm.jpg')}}" alt="author">
                             </div>
                             <div class="notification-event">
                                 <a href="#" class="h6 notification-friend">The Marina Bar</a>
@@ -680,7 +680,7 @@
 
                         <li class="inline-items">
                             <div class="author-thumb">
-                                <img src="img/avatar42-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar42-sm.jpg')}}" alt="author">
                             </div>
                             <div class="notification-event">
                                 <a href="#" class="h6 notification-friend">Tapronus Rock</a>
@@ -696,7 +696,7 @@
 
                         <li class="inline-items">
                             <div class="author-thumb">
-                                <img src="img/avatar43-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar43-sm.jpg')}}" alt="author">
                             </div>
                             <div class="notification-event">
                                 <a href="#" class="h6 notification-friend">Pixel Digital Design</a>
@@ -711,7 +711,7 @@
 
                         <li class="inline-items">
                             <div class="author-thumb">
-                                <img src="img/avatar44-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar44-sm.jpg')}}" alt="author">
                             </div>
                             <div class="notification-event">
                                 <a href="#" class="h6 notification-friend">Thompson’s Custom Clothing Boutique</a>
@@ -727,7 +727,7 @@
 
                         <li class="inline-items">
                             <div class="author-thumb">
-                                <img src="img/avatar45-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar45-sm.jpg')}}" alt="author">
                             </div>
                             <div class="notification-event">
                                 <a href="#" class="h6 notification-friend">Crimson Agency</a>
@@ -742,7 +742,7 @@
 
                         <li class="inline-items">
                             <div class="author-thumb">
-                                <img src="img/avatar46-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar46-sm.jpg')}}" alt="author">
                             </div>
                             <div class="notification-event">
                                 <a href="#" class="h6 notification-friend">Mannequin Angel</a>
@@ -779,7 +779,7 @@
 
                         <div class="content">
                             <div class="author-thumb">
-                                <img src="img/avatar48-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar48-sm.jpg')}}" alt="author">
                             </div>
                             <span>{{ trans('word.Today is')}}</span>
                             <a href="#" class="h4 title">{{ trans('word.Birthday')}}</a>
@@ -802,7 +802,7 @@
                     <ul class="widget w-friend-pages-added notification-list friend-requests">
                         <li class="inline-items">
                             <div class="author-thumb">
-                                <img src="img/avatar38-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar38-sm.jpg')}}" alt="author">
                             </div>
                             <div class="notification-event">
                                 <a href="#" class="h6 notification-friend">Francine Smith</a>
@@ -819,7 +819,7 @@
 
                         <li class="inline-items">
                             <div class="author-thumb">
-                                <img src="img/avatar39-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar39-sm.jpg')}}" alt="author">
                             </div>
                             <div class="notification-event">
                                 <a href="#" class="h6 notification-friend">Hugh Wilson</a>
@@ -836,7 +836,7 @@
 
                         <li class="inline-items">
                             <div class="author-thumb">
-                                <img src="img/avatar40-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar40-sm.jpg')}}" alt="author">
                             </div>
                             <div class="notification-event">
                                 <a href="#" class="h6 notification-friend">Karen Masters</a>
@@ -869,7 +869,7 @@
                     <ul class="widget w-activity-feed notification-list">
                         <li>
                             <div class="author-thumb">
-                                <img src="img/avatar49-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar49-sm.jpg')}}" alt="author">
                             </div>
                             <div class="notification-event">
                                 <a href="#" class="h6 notification-friend">Marina Polson</a> commented on Jason Mark’s <a href="#" class="notification-link">photo.</a>.
@@ -879,7 +879,7 @@
 
                         <li>
                             <div class="author-thumb">
-                                <img src="img/avatar9-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar9-sm.jpg')}}" alt="author">
                             </div>
                             <div class="notification-event">
                                 <a href="#" class="h6 notification-friend">Jake Parker </a> liked Nicholas Grissom’s <a href="#" class="notification-link">status update.</a>.
@@ -889,7 +889,7 @@
 
                         <li>
                             <div class="author-thumb">
-                                <img src="img/avatar50-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar50-sm.jpg')}}" alt="author">
                             </div>
                             <div class="notification-event">
                                 <a href="#" class="h6 notification-friend">Mary Jane Stark </a> added 20 new photos to her <a href="#" class="notification-link">gallery album.</a>.
@@ -899,7 +899,7 @@
 
                         <li>
                             <div class="author-thumb">
-                                <img src="img/avatar51-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar51-sm.jpg')}}" alt="author">
                             </div>
                             <div class="notification-event">
                                 <a href="#" class="h6 notification-friend">Nicholas Grissom </a> updated his profile <a href="#" class="notification-link">photo</a>.
@@ -908,7 +908,7 @@
                         </li>
                         <li>
                             <div class="author-thumb">
-                                <img src="img/avatar48-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar48-sm.jpg')}}" alt="author">
                             </div>
                             <div class="notification-event">
                                 <a href="#" class="h6 notification-friend">Marina Valentine </a> commented on Chris Greyson’s <a href="#" class="notification-link">status update</a>.
@@ -918,7 +918,7 @@
 
                         <li>
                             <div class="author-thumb">
-                                <img src="img/avatar52-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar52-sm.jpg')}}" alt="author">
                             </div>
                             <div class="notification-event">
                                 <a href="#" class="h6 notification-friend">Green Goo Rock </a> posted a <a href="#" class="notification-link">status update</a>.
@@ -927,7 +927,7 @@
                         </li>
                         <li>
                             <div class="author-thumb">
-                                <img src="img/avatar10-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar10-sm.jpg')}}" alt="author">
                             </div>
                             <div class="notification-event">
                                 <a href="#" class="h6 notification-friend">Elaine Dreyfuss  </a> liked your <a href="#" class="notification-link">blog post</a>.
@@ -937,7 +937,7 @@
 
                         <li>
                             <div class="author-thumb">
-                                <img src="img/avatar10-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar10-sm.jpg')}}" alt="author">
                             </div>
                             <div class="notification-event">
                                 <a href="#" class="h6 notification-friend">Elaine Dreyfuss  </a> commented on your <a href="#" class="notification-link">blog post</a>.
@@ -947,7 +947,7 @@
 
                         <li>
                             <div class="author-thumb">
-                                <img src="img/avatar53-sm.jpg" alt="author">
+                                <img src="{{asset('img/avatar53-sm.jpg')}}" alt="author">
                             </div>
                             <div class="notification-event">
                                 <a href="#" class="h6 notification-friend">Bruce Peterson </a> changed his <a href="#" class="notification-link">profile picture</a>.

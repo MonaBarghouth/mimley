@@ -2,11 +2,11 @@
     function show(){
 
         $(".search-bar .notification-list").addClass("search-r");
-    $("#input-search").focusout(function() {
-
-
-        $(".search-bar .notification-list").removeClass("search-r");
-    });
+    // $("#input-search").focusout(function() {
+    //
+    //
+    //     $(".search-bar .notification-list").removeClass("search-r");
+    // });
 
     }
 </script>

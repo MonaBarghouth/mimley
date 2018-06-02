@@ -525,7 +525,7 @@
 
                     </div>
                 </div>
-                <a href={{url("/home")}} class="author-name fn">
+                <a href={{url("/profile/".Auth::user()->username)}} class="author-name fn">
                     <div class="author-title">
                         {{Auth::user()->name }} <svg class="olymp-dropdown-arrow-icon"><use xlink:href="{{asset('svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon')}}"></use></svg>
                     </div>

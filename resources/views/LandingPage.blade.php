@@ -61,8 +61,8 @@
 
             {{--<a href="#" class="logo">--}}
                 {{--<div class="img-wrap">--}}
-                    {{--<img src="img/logo.png" alt="Olympus">--}}
-                    {{--<img src="img/logo-colored-small.png" alt="Olympus" class="logo-colored">--}}
+                    {{--<img src="{{asset('img/logo.png')}}" alt="Olympus">--}}
+                    {{--<img src="{{asset('img/logo-colored-small.png')}}" alt="Olympus" class="logo-colored">--}}
                 {{--</div>--}}
                 {{--<div class="title-block">--}}
                     {{--<h6 class="logo-title">olympus</h6>--}}
@@ -171,7 +171,7 @@
                                 {{--<ul>--}}
                                     {{--<li class="cart-product-item">--}}
                                         {{--<div class="product-thumb">--}}
-                                            {{--<img src="img/product1.png" alt="product">--}}
+                                            {{--<img src="{{asset('img/product1.png')}}" alt="product">--}}
                                         {{--</div>--}}
                                         {{--<div class="product-content">--}}
                                             {{--<h6 class="title">White Enamel Mug</h6>--}}
@@ -202,7 +202,7 @@
                                     {{--</li>--}}
                                     {{--<li class="cart-product-item">--}}
                                         {{--<div class="product-thumb">--}}
-                                            {{--<img src="img/product2.png" alt="product">--}}
+                                            {{--<img src="{{asset('img/product2.png')}}" alt="product">--}}
                                         {{--</div>--}}
                                         {{--<div class="product-content">--}}
                                             {{--<h6 class="title">Olympus Orange Shirt</h6>--}}

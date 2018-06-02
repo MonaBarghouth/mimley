@@ -16,8 +16,8 @@ Route::group(['middleware'=>'locale'],function(){
 
 Route::post('/locale','LocalizationController@index');
 Route::get('/', function () {
-    return view('welcome');
-   // return redirect('/registeration');
+//    return view('welcome');
+    return redirect('/registeration');
 });
 //Route::get('/', function () {
 //    return view('LandingPage');
